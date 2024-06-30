@@ -30,7 +30,8 @@ export default function CSVFileImport({ url, title }: CSVFileImportProps) {
       return;
     }
 
-    // Get the presigned URL
+    try {
+      // Get the presigned URL
     const response = await axios({
       method: "GET",
       url,
@@ -44,10 +45,18 @@ export default function CSVFileImport({ url, title }: CSVFileImportProps) {
     const result = await fetch(response.data, {
       method: "PUT",
       body: file,
+      headers: {
+        "Content-Type": "text/csv",
+      },
     });
 
     console.log("Result: ", result);
     setFile(undefined);
+    } catch(err) {
+      console.error("Uploading Error:", err);
+    }
+
+    
   };
 
   return (
