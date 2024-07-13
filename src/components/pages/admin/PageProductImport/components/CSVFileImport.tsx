@@ -21,16 +21,11 @@ export default function CSVFileImport({ url, title }: CSVFileImportProps) {
     }
   };
 
-  // useEffect(() => {
-  //   localStorage.setItem('authorization_token','cGFybmFzbWk6VEVTVF9QQVNTV09SRA==');
-  // },[]);
-
   const removeFile = () => {
     setFile(undefined);
   };
 
   const token = localStorage.getItem('authorization_token');
-  console.log('token',token);
 
   const uploadFile = async () => {
     console.log("uploadFile to", url);
