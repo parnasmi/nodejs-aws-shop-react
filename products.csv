@@ -1,6 +1,6 @@
-uuid,product_title,description,value,price
-1e7a6b6e-9c77-4c4a-9e5c-934fdc63b6b9,Product A,Description of Product A,100,29.99
-2d8f7b2d-9c0c-4f5e-912e-81b8a2c36b68,Product B,Description of Product B,200,49.99
-3c4a9b3c-8b3e-4a2e-b8b3-9d4e2e9c6f6b,Product C,Description of Product C,300,19.99
-4b7e3b4b-7a2d-4d5e-8b3d-5a7e4e9c5d7f,Product D,Description of Product D,400,39.99
-5e6d9c5e-6f4b-4a2e-8b2e-7c6d4e9c3f5d,Product E,Description of Product E,500,59.99
+id,title,description,price
+1e7a6b6e-9c77-4c4a-wee25c-934fdc63b6b2,Table,Description of Product A,29.99
+2d8f7b2d-9c0c-4f5e-9e212e-81b8a2c36b64,Chair,Description of Product B,49.99
+3c4a9b3c-8b3e-4a2e-be3b3-9d4e2e9c6f65,Sofa,Description of Product C,19.99
+4b7e3b4b-7a2d-4d5e-8eb33d-5a7e4e9c5d76,TV,Description of Product D,101.99
+5e6d9c5e-6f4b-4a2e-8b3e2e-7c6d4e9c3f57,Bed,Description of Product E,59.99
